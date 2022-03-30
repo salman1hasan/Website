@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content ="with=device-width, initial-scale=1.0">
+         <title>Salman Hasan</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/SH.png"></a>
+        <div class="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PROJECTS</a></li> 
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>MIT Projects</h1>
+</div>
+
+</section>
+
+<section class= "About">
+    <h1>Projects</h1>
+    <p> MITxPro Projects</p>
+
+<div class="row">
+    <div class="about">
+        <h3>Pac-Men Exercise</h3>
+        <a href="https://github.com/salman1hasan/PacMen-Exercise/" class="hero-btn"> Click Here</a>
+        <p>Pac-Men Exercise (Ability to move the Pac-Men in different directions)</p>
+    </div>
+    <div class="about">
+        <h3>Eye-Exercise</h3>
+        <a href="https://github.com/salman1hasan/Eye-Exercise" class="hero-btn"> Click Here</a>
+        <p> Eye Exercise (Ability to move the eyes in different directions) </p>
+        
+    </div>
+    <div class="about">
+        <h3>Real-Time Bus Tracker</h3>
+        <a href="https://github.com/salman1hasan/Real-Time-Bus-Tracker" class="hero-btn"> Click Here </a>
+        <p>Real Time Bus Tracker (Created map with a timer to track a bus)</p>
+    </div>
+</div>  
+
+</section>
+
+
+<script>
+    var narLinks = document.getElementById("navLinks"); 
+    function showMenu() {
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+</body>
+</html>
